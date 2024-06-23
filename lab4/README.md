@@ -19,5 +19,4 @@ datasets - каталог для сохранения датасета.
 строкового признака «Пол» (“Sex”).
 
 Для сохранения версий датасетов установлен и настроен git и dvc. В качестве удаленного 
-хранилища файлов настроен Google Disk: 
-https://drive.google.com/drive/folders/1-1rKK8uJsiB9O3QGVcOrYU-3fod22UKm?usp=sharing 
+хранилища файлов настроен Google Disk
