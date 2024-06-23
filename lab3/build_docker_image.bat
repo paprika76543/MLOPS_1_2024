@@ -1,0 +1,1 @@
+docker build -t mlops-lab3-app .

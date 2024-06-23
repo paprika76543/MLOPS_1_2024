@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  mlops-lab3-app:
+    container_name: my-mlops-container-lab3  # Указываем имя контейнера здесь
+    image: mlops-lab3-app
+    ports:
+      - "8000:8000"
+    volumes:
+# Вариант для Линукс
+#      - ${PWD}:/usr/src/app
+# Вариант для Windows
+      - E:\IDE\СЕМЕСТР2\mlops_practice\lab3:/usr/src/app
+    command: sh start.sh
